@@ -1,26 +1,41 @@
 
-a {
-    font-family: arial,sans-serif;
-}
-
-a:link {
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
 img {
     display: block;
     margin: 0 auto;
-    padding: 150px 200px 40px 200px;
-    width: 272px;
-    height: 92px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  flex: 1;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.top-nav {
+  padding: 10px;
+}
+
+#link-4 {
+border-radius: 50%;
 }
 
 #google-logo {
     position: relative;
+    padding: 150px 200px 40px 200px;
+    width: 272px;
+    height: 92px;
+    display: block;
 }
 
 input {
@@ -116,8 +131,14 @@ input:hover {
   }
   
   .footer-links li a {
+    font-family: arial,sans-serif;
+    text-decoration: none;
     color: #727577;
     font-size: 10.5pt !important;
+  }
+
+  .footer-links a:hover {
+    text-decoration: underline;
   }
 
   .align-left {
@@ -131,9 +152,9 @@ input:hover {
   }
 
   .li-left {
-    padding: 0px 20px 0px 0px;
+    padding: 0px 20px 0px 10px;
   }
 
   .li-right {
-    padding: 0px 0px 0px 20px;
+    padding: 0px 10px 0px 20px;
   }
